@@ -1,0 +1,107 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    background-color: #1E3A8A; /* Dark blue */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+header img.logo {
+    height: 50px;
+    width: auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2em;
+    background-color: #ffffff; /* White */
+    color: #1E3A8A; /* Dark blue */
+}
+
+h1, h2 {
+    text-align: center;
+    color: #F97316; /* Orange */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f4f4f4; /* Light grey */
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label, form input, form button {
+    margin: 0.5em 0;
+}
+
+form button {
+    background-color: #1E3A8A; /* Dark blue */
+    color: white;
+    border: none;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #F97316; /* Orange */
+}
+
+.about-img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 1em auto;
+}
+
+button {
+    background-color: #1E3A8A; /* Dark blue */
+    color: white;
+    border: none;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F97316; /* Orange */
+}
